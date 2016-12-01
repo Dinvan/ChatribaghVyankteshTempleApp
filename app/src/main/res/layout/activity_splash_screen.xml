@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/commonbg">
+
+    <ImageButton
+        android:padding="15dp"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:id="@+id/btnMute"
+        android:src="@drawable/muteicon"
+        android:layout_width="40dp"
+        android:background="@android:color/transparent"
+        android:layout_margin="5dp"
+        android:layout_height="40dp" />
+<TextView
+    android:layout_above="@+id/nagoriyamatka"
+    android:layout_width="match_parent"
+    android:gravity="center|top"
+    android:layout_marginTop="15dp"
+    android:layout_alignParentTop="true"
+    android:textColor="#CD210D"
+    android:textSize="22dp"
+    android:text="@string/splash_title"
+    android:layout_height="wrap_content" />
+
+    <ImageView
+        android:padding="15dp"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:id="@+id/nagoriyamatka"
+        android:src="@drawable/nagoriya_matka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/nagoriyamatka"
+
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/bg_screen1"
+        android:textSize="24dp"
+        android:text="@string/splashname"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/bg_screen1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Developed By :InfoKit Apps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

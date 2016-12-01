@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/commonbg"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ank.chatribaghvyankteshtempleapp.FullScreenGalleryImageActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        card_view:cardElevation="0dp"
+        card_view:cardBackgroundColor="@android:color/transparent"
+        card_view:contentPadding="5dp">
+    <ImageView
+        android:id="@+id/imgFullScreen"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        android:src="@drawable/ramanuj_ji_cardbg" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.AppCompatButton
+
+       android:id="@+id/btnSetAsWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set As Wallpaper"
+       android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

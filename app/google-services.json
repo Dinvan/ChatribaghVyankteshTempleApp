@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "955949495906",
+    "firebase_url": "https://chatribaghapp.firebaseio.com",
+    "project_id": "chatribaghapp",
+    "storage_bucket": "chatribaghapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955949495906:android:7cbdf70f345ef5ee",
+        "android_client_info": {
+          "package_name": "com.infokitapps.vyankteshtemple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955949495906-pa167tdeo6c71gd2e07fatsn8o86v8j1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infokitapps.vyankteshtemple",
+            "certificate_hash": "B40CB0F9B373ED2B1492C6D356C0D63FAC4AF3CD"
+          }
+        },
+        {
+          "client_id": "955949495906-gjr3udggfm00r3j708ct3di5m86v8p1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5mxkq5W0p-CaPqe07-Iyg3g5KhDZOvhE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955949495906-gjr3udggfm00r3j708ct3di5m86v8p1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

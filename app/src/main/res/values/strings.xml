@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Nagoriya Math Indore</string>
+    <string name="venkesh_temple">Venktesh Temple Indore</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_main_activityj">MainActivityj</string>
+
+
+    // Intro Slider strings
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+<string name="splash_title">|| श्री श्रियै नमः ||\n
+||श्री मते रामानुजाय नमः||</string>
+
+    <!--  <string name="splashname">Shree Laxmi-Venktesh \ndevsthan chatribagh \nIndore</string>-->
+
+    <string name="splashname">पावन सिद्धधाम\n श्री लक्ष्मीवेंकटेश देवस्थान,\nछत्रीबाग इंदौर</string>
+    <string name="jaishreemannarayan">|| जय श्रीमन्नारायण ||</string>
+    <string name="invitation_msg">अखण्डमण्डलाकारं व्याप्तं येन चराचरम् ।तत्पदं दर्शितं येन तस्मै श्रीगुरवे नमः ॥    अज्ञानतिमिरान्धस्य ज्ञानाञ्जनशलाकया ।चक्षुरुन्मीलितं येन तस्मै श्रीगुरवे नमः ॥  </string>
+    <string name="namaste"></string>
+    <string name="slide_1_title">Temple Foundation</string>
+    <string name="slide_1_desc">Temple was built under guidance of Swamiji Shri Chaturbhujaacharyaji who often visited Indore. Temple land was gifted by one of disciple of Swamiji of Indore</string>
+
+    <string name="slide_2_title">Praan Pratistha</string>
+    <string name="slide_2_desc">After some time, his successor Swami Shri Keshwacharyaji constructed temple where he placed idols of Venkateshwara, Laxmiji and Ramanujaacharyaji and did “Praan Pratistha” on ashada shukla dooj samvad 2027 and that day is now celebrated as foundation day i.e Brahmohtsav.</string>
+
+    <string name="slide_3_title"> Brahmohtsav and Rathyatra</string>
+    <string name="slide_3_desc"> Brahmohtsav and Rathyatra Mahotsav for seven days where as in Indore India’s thirth largest    chariot festival is celebrated where near about 25-30 thousand people participate.</string>
+
+    <string name="slide_4_title">Temple Utsav</string>
+    <string name="slide_4_desc">In Indore temple many festival in brahmohtsav like Kalyan Utsav, Swaran Rajat (Gold ,Silver) Kamal Aarchana, Parkal lila, Pranay Kalay lila, special fool bunglow etc. are carried.!</string>
+
+
+    <string name="swamiji_1_title"> Shri Keshwaacharya Ji Maharaj </string>
+
+    <!--After some time, his successor Swami Shri Keshwacharyaji constructed temple where he placed idols of Venkateshwara, Laxmiji and Ramanujaacharyaji and did “Praan Pratistha”-->
+    <string name="swamiji_1_desc">Swami Shri Keshwacharyaji constructed temple where he placed idols of Venkateshwara, Laxmiji and Ramanujaacharyaji and did “Praan Pratistha</string>
+    <!--Temple was built under guidance of Swamiji Shri Chaturbhujaacharyaji.After some time, his successor -->
+    <string name="swamiji_2_title">Shri Shriniwasacharaya Ji Maharaj</string>
+    <string name="swamiji_2_desc">Then after the Nagoriya Math headed by Shri Shri 1008 Shriniwasacharaya Ji Maharaj.</string>
+
+    <string name="swamiji_3_title">Swamiji Sarkar</string>
+    <string name="swamiji_3_desc">Nagoriya Pithadhishwar Shri Anant Shri Vibhushit Shrimadd Jagadguru Swamiji Shri Vishnuprapannacharyaji Maharaj.</string>
+
+    <string name="swamiji_4_title">Swamiji Sarkar</string>
+    <string name="swamiji_4_desc">Then the Nagoriya Math further headed by Shri Shri 1008 "Swami Vishnuprapana Acharyaji Maharaj".</string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_about_temple">AboutTempleActivity</string>
+    <string name="title_activity_about_swamiji">AboutSwamijiActivity</string>
+
+    <string name="addressTitle">पावन सिद्धधाम श्री लक्ष्मीवेंकटेश देवस्थान, छत्रीबाग इंदौर</string>
+    <string name="address">36/1, Chhatribagh Indore</string>
+
+    <string name="email">adiyan.1008@gmail.com</string>
+ <string name="sadar_aamantran">
+             ||सादर आमंत्रण||
+\n*श्री ब्रह्मोत्सव एवं रथयात्रा महोत्सव संवत 2073*
+मिति..आषाढ़,कृष्ण पक्ष दशमी से
+आषाढ़,शुक्ल पक्ष द्वितीया
+30 जून गुरुवार 2016 से 7 जुलाई गुरुवार 2016
+    </string>
+    <string name="thirty_july">आषाढ़,कृष्ण पक्ष दशमी
+३० जून गुरुवार
+ध्वजारोहण ---प्रात : ७.३० पर
+शेषावतार श्रीरामानुज स्वामी जी का
+महाभिषेक प्रात : ८.३० बजे से...
+भाष्यकार श्रीरामानुज स्वामीजी की
+शोभायात्रा श्री गज़ वाहन पर
+रात्रि : ८.३० बजे से...
+*भजन-गायक -श्रीमती नीलिमा जी माहेश्वरी (पिपरिया)
+</string>
+    <string name="first_july">आषाढ़,कृष्ण पक्ष एकादशी
+*१-जुलाई शुक्रवार*
+भगवती श्री महालक्ष्मीजी का  महाभिषेक
+_प्रातः- ८.३० बजे से_ भगवती श्री महालक्ष्मी की सामूहिक सहस्त्रअर्चना -प्रात : ११.३० बजे से...
+भगवती श्री महालक्ष्मीकी शोभायात्रा
+श्री स्वर्णमंगलगिरी पर
+रात्रि : ८.३० बजे से ...
+भजन गायक ----
+*श्री मँयक जी व्यास
+</string>
+    <string name="second_july">आषाढ़, कृष्ण त्रयोदशी
+_२-जुलाई शनिवार_
+भगवान श्री वेंकटेश जी का महाभिषेक
+प्रात:८.३० बजे से ...
+भगवान श्री वेंकटेशजी की शोभायात्रा
+श्री हनुमान वाहन पर
+छत्रीबाग परिसर में (छोटी रथ यात्रा )
+_रात्रि:८.३० बजे से..._
+भजन गायक----
+*श्री हरिकिशन जी साबु (भोपु जी)
+</string>
+    <string name="third_july">आषाढ़,कृष्ण पक्ष चतुर्दशी
+_३-जुलाई रविवार_
+------विशेष उत्सव -----
+बसन्तोत्सव-प्रात:९ बजे से...
+प्रवचन गंगा - प्रात:१०.०० बजे से
+तिरूप्पावडा प्रात:१२.०० बजे से
+भगवान श्री वेंकटेशजी की शोभायात्रा
+श्री गुरुड़ वाहन पर
+रात्रि:८.३० बजे से ..
+भजन गायक ---
+*श्री द्वारका जी मंत्री (देवास)
+</string>
+    <string name="four_july">आषाढ़,कृष्ण पक्ष अमावस्या
+*४-जुलाई सोमवार*
+_कल्याण उत्सव (विवाहोंत्सव)_
+प्रात: ९.०० बजे से
+भजन गायक --
+*श्री द्वारका जी मंत्री*
+भगवान श्री वेंकटेशजी की शोभायात्रा
+श्री अश्ववाहन पर
+_रात्रि: ८.३० बजे से .._
+परकाल लीला---
+भजन गायक ---
+*श्री सुधीर जी व्यास*
+</string>
+
+        <string name="five_july">आषाढ़,कृष्ण पक्ष प्रतिपदा
+५-जुलाई मंगलवार
+प्रणयकलहलीला --
+प्रात:९.०० बजे से
+*पुष्प बंगला*
+भगवान श्री लक्ष्मी वेंकटेश के मनमोहक दर्शन
+संध्या--७.०० बजे से
+भजन गायक  -------------
+*श्री राजेश जी सांखला*
+</string>
+
+        <string name="six_july">आषाढ़,कृष्ण पक्ष द्वितीया
+६-जुलाई बुधवार
+भगवान श्री लक्ष्मी वेंकटेश के मनोहारी पुष्प बंगले में दर्शन
+प्रात:७.०० बजे से
+श्री वेणुगोपाल संस्कृत पाठशाला का वार्षिक उत्सव
+प्रात:९.०० बजे से ..........
+भगवान श्री वेंकटेशजी
+श्रीदेवी भूदेवी के साथ....
+चाँदी के रथ पर विराजमान होकर
+मध्य भारत की गौरवमयी रथयात्रा के रूप में भक्तों को दर्शन देने निकलेगे..
+संध्या.४.०० बजे से .....
+भजन गायक---
+*श्री हरिकिशन जी साबु (भोपु जी)*
+*श्री द्वारका जी मंत्री (देवास\)*
+</string>
+
+        <string name="seven_july">आषाढ़,कृष्ण पक्ष तृतीया
+७-जुलाई गुरुवार
+शांति उत्सव
+भगवान श्री वेंकटेश जी का महाभिषेक
+प्रात:८.३० पर
+        \n नोट :
+उत्सवों में समयानुसार परिवर्तन सम्भव है......
+        </string>
+    <string name="latest_event">Latest Events</string>
+    <string name="contact_us">Contact US</string>
+    <string name="gallery">Photo Gallery</string>
+    <string name="ringtones">Arti-Strotam</string>
+    <string name="developed_by">Developed By</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

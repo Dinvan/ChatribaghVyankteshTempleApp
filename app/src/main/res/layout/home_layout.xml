@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/commonbg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ank.chatribaghvyankteshtempleapp.MainActivityj"
+    tools:showIn="@layout/activity_main_activityj">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/jai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/jaishreemannarayan"
+                android:textColor="#CD210D"
+                android:textSize="22dp" />
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jai"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_horizontal_margin">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+
+                    card_view:cardBackgroundColor="#FFB000"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="3dp"
+                    card_view:contentPadding="7dp">
+
+                    <RelativeLayout
+                        android:id="@+id/aboutTempleLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:gravity="bottom"
+                        android:onClick="onHomeItemClick"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/templeImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/temple_icon" />
+
+                        <TextView
+                            style="@style/home_button_style"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toRightOf="@+id/templeImage"
+                            android:gravity="right"
+                            android:paddingLeft="20dp"
+                            android:text="About Temple" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    card_view:cardBackgroundColor="#50568A"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="3dp"
+                    card_view:contentPadding="7dp">
+
+                    <RelativeLayout
+                        android:id="@+id/aboutSwamijiLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onHomeItemClick"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/tilakImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/tilak" />
+
+                        <TextView
+                            style="@style/home_button_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toRightOf="@+id/tilakImage"
+                            android:gravity="right"
+                            android:paddingLeft="20dp"
+                            android:text="About Swami ji" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linear21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear2"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    card_view:cardBackgroundColor="#56935E"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="3dp"
+                    card_view:contentPadding="7dp">
+
+                    <RelativeLayout
+                        android:id="@+id/contactUsLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onHomeItemClick"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/calendarImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/icon_contactus" />
+
+                        <TextView
+                            style="@style/home_button_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toRightOf="@+id/calendarImage"
+                            android:gravity="right"
+                            android:paddingLeft="20dp"
+                            android:text="@string/contact_us" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    card_view:cardBackgroundColor="#B44975"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="3dp"
+                    card_view:contentPadding="7dp">
+
+                    <RelativeLayout
+                        android:id="@+id/latestEventsLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onHomeItemClick"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/eventImage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/kalash_icon" />
+
+                        <TextView
+                            style="@style/home_button_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+
+                            android:layout_toRightOf="@+id/eventImage"
+                            android:gravity="right"
+                            android:paddingLeft="20dp"
+                            android:text="Latest Event" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear1"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    card_view:cardBackgroundColor="#E84F5E"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="3dp"
+                    card_view:contentPadding="7dp">
+
+                    <RelativeLayout
+                        android:id="@+id/galleryLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onHomeItemClick"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/calendarImage1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/gallery_icon" />
+
+                        <TextView
+                            style="@style/home_button_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_toRightOf="@+id/calendarImage1"
+                            android:gravity="right"
+                            android:paddingLeft="20dp"
+                            android:text="@string/gallery" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    card_view:cardBackgroundColor="#00bcd4"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="3dp"
+                    card_view:contentPadding="7dp">
+
+                    <RelativeLayout
+                        android:id="@+id/artiStrotamLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="onHomeItemClick"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/eventImage1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:src="@drawable/om_icon" />
+
+                        <TextView
+                            style="@style/home_button_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toRightOf="@+id/eventImage1"
+                            android:gravity="right"
+                            android:paddingLeft="20dp"
+                            android:text="@string/ringtones" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_below="@+id/linear21"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardElevation="10dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.panxw.android.imageindicator.ImageIndicatorView
+                        android:id="@+id/indicate_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+
+        android:id="@+id/MarqueeText"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/invitation_msg"
+        android:textColor="#CD210D"
+        android:textSize="22dp"></TextView>
+</RelativeLayout>
